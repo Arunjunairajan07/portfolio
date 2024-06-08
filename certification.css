@@ -1,0 +1,85 @@
+body{
+    background: linear-gradient(to right,rgb(250, 232, 232),rgb(90, 90, 224)); 
+    margin:0px;
+    padding: 0px;
+    height: 100vh;
+    margin-top: 0px;
+    margin-left: 650px;
+}
+
+h2{
+    font-size: 70px;
+    margin-top:90px;
+}
+
+.slider{
+    width:990px;
+    height:650px;
+    border-radius:20px;
+    overflow: hidden;
+}
+
+.side{
+    width: 500px;
+    height: 500px;
+    display: flex;
+}
+
+.side input{
+    display:none ;
+}
+
+.certificate{
+    width: 1000px;
+    transition: 2s;
+}
+
+.certificate img{
+    width:990px;
+    height:650px;
+}
+
+.manual{
+    position:absolute;
+    width:990px;
+    margin-top:-40px;
+    display: flex;
+    margin-left: 530px;
+}
+
+.control{
+    border:5px solid white;
+    padding: 5px;
+    margin-top: 800px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.control:not(:last-child){
+    margin-right: 40px;
+}
+
+.control:hover{
+    background:red;
+}
+
+#button1:checked ~ .one{
+    margin-left:0%;
+}
+
+#button2:checked ~ .one{
+    margin-left:-200%;
+}
+
+#button3:checked ~ .one{
+    margin-left:-395% ;
+}
+
+#button4:checked ~ .one{
+    margin-left:-595% ;
+}
+
+#button5:checked ~ .one{
+    margin-left:-795%;
+}
+
